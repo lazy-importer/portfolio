@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phantom - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="video-background">
+        <video autoplay muted loop id="myVideo">
+            <source src="assets/background.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header>
+        <div class="logo">
+            <h1>phantom</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Hi, I'm phantom</h2>
+                    <h3>Reverse Engineer</h3>
+                    <p>Trying my best to upgrade my skills and improve my knowledge ! 
+                        <br>I'm french btw !! 
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn">Contact Me</a>
+                        <a href="#skills" class="btn btn-outline">My Skills</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://cdn.discordapp.com/avatars/1356682833954996376/a_66022f396a7bbbc2a09ac02f6e34c12d.gif?size=1024" alt="Profile Image">
+                </div>
+            </div>
+        </section>
+
+        <section id="technical" class="technical">
+            <h2>Technical Expertise</h2>
+            <div class="expertise-cards">
+                <!--
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>React, Vue, HTML5, CSS3, JavaScript</p>
+                </div>
+                -->
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Python, MongoDB, PostgreSQL</p>
+                </div>
+                <div class="expertise-card">
+                    <div class="expertise-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <h3>Reverse Engineering</h3>
+                    <p>x64dbg, IDA Pro, Ghidra, D.I.E, </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <div class="skill-group">
+                    <h3>Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="devicon-python-plain colored"></i>
+                            <p>Python</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-javascript-plain colored"></i>
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-cplusplus-plain colored"></i>
+                            <p>C++</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-go-plain colored"></i>
+                            <p>Go</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="devicon-html5-plain colored"></i>
+                            <p>HTML5</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-css3-plain colored"></i>
+                            <p>CSS3</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-docker-plain colored"></i>
+                            <p>Docker</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-github-original"></i>
+                            <p>GitHub</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-group">
+                    <h3>Databases</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="devicon-mysql-plain colored"></i>
+                            <p>MySQL</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-postgresql-plain colored"></i>
+                            <p>PostgreSQL</p>
+                        </div>
+                        <div class="skill-item">
+                            <i class="devicon-mongodb-plain colored"></i>
+                            <p>MongoDB</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>Projects</h2>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/1e1e1e/00ff00/?text=Project+1" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>Reverse Engineering Tool</h3>
+                        <p>A sophisticated tool for code analysis and vulnerability detection</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Security</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://via.placeholder.com/400x250/1e1e1e/00ff00/?text=Project+2" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>MCP Server Framework</h3>
+                        <p>Custom server implementation with advanced networking capabilities</p>
+                        <div class="project-tags">
+                            <span>C++</span>
+                            <span>Networking</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="https://cdn.discordapp.com/avatars/1356682833954996376/a_66022f396a7bbbc2a09ac02f6e34c12d.gif?size=1024" alt="Profile">
+                </div>
+                <div class="about-text">
+                    <p>Reverse Engineer with 2 years of experience</p>
+                    <ul>
+                        <li>🐍 Python Expert</li>
+                        <li>📚 Currently learning C++ / JavaScript / Golang</li>
+                        <li>🔧 MCP server maker</li>
+                        <li>🤖 AI Enthusiastic</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <div class="contact-container">
+                <div class="social-links">
+                    <a href="https://github.com/lazy-importer" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <!--<a href="https://www.instagram.com" target="_blank" class="social-link">
+                        <i class="fab fa-instagram"></i>
+                    </a>-->
+                    <a href="https://www.youtube.com/@phantom6376-zd3ci" target="_blank" class="social-link">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="https://discord.gg/unsorter" target="_blank" class="social-link">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>© 2025 phantom. All rights reserved.</p>
+            <div class="footer-social">
+                <a href="https://github.com/lazy-importer" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+                <!--<a href="https://www.instagram.com" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>-->
+                <a href="https://discord.gg/unsorter" target="_blank">
+                    <i class="fab fa-discord"></i>
+                </a>
+                <a href="https://www.youtube.com/@phantom6376-zd3ci" target="_blank">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
